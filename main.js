@@ -10,7 +10,7 @@ const typeNames = {
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const response = await fetch('./data.json');
+        const response = await fetch('./data.json?v=' + new Date().getTime());
         rawData = await response.json();
         
         rawData.sort((a, b) => new Date(a.date) - new Date(b.date));
