@@ -1,14 +1,18 @@
 let rawData = [];
 let chartInstance = null;
 
-// Initialize when DOM is loaded
+const typeNames = {
+    'transaction': '買賣',
+    'auction': '拍賣',
+    'inheritance': '繼承',
+    'gift': '贈與'
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
-    // 1. Fetch JSON data
     try {
         const response = await fetch('./data.json');
         rawData = await response.json();
         
-        // Data usually needs sorting by date if not already
         rawData.sort((a, b) => new Date(a.date) - new Date(b.date));
 
         const now = new Date();
@@ -42,7 +46,6 @@ function initFilters() {
         endSelect.appendChild(optEnd);
     });
 
-    // Default to full range
     startSelect.value = years[0];
     endSelect.value = years[years.length - 1];
 }
@@ -50,6 +53,7 @@ function initFilters() {
 function setupEventListeners() {
     document.getElementById('startYear').addEventListener('change', updateView);
     document.getElementById('endYear').addEventListener('change', updateView);
+    document.getElementById('dataType').addEventListener('change', updateView);
     document.getElementById('trendToggle').addEventListener('change', updateView);
 }
 
@@ -57,12 +61,11 @@ function updateView() {
     renderChart();
 }
 
-// Calculate Simple Moving Average
 function calculateSMA(data, windowSize = 6) {
     const sma = [];
     for (let i = 0; i < data.length; i++) {
         if (i < windowSize - 1) {
-            sma.push(null); // Not enough data for average
+            sma.push(null); 
         } else {
             let sum = 0;
             for (let j = 0; j < windowSize; j++) {
@@ -77,9 +80,9 @@ function calculateSMA(data, windowSize = 6) {
 function renderChart() {
     const startYear = document.getElementById('startYear').value;
     const endYear = document.getElementById('endYear').value;
+    const dataType = document.getElementById('dataType').value;
     const showTrend = document.getElementById('trendToggle').checked;
 
-    // Filter data based on selected years
     const filteredData = rawData.filter(d => {
         const year = d.date.substring(0, 4);
         return year >= startYear && year <= endYear;
@@ -92,11 +95,12 @@ function renderChart() {
     }
 
     const labels = filteredData.map(d => d.date);
-    const transactions = filteredData.map(d => d.transactions);
+    const dataValues = filteredData.map(d => d[dataType]);
+    const currentTypeName = typeNames[dataType];
     
     const datasets = [{
-        label: '買賣移轉棟數',
-        data: transactions,
+        label: `${currentTypeName}移轉棟數`,
+        data: dataValues,
         borderColor: '#2563EB',
         backgroundColor: 'rgba(37, 99, 235, 0.1)',
         borderWidth: 2,
@@ -107,8 +111,7 @@ function renderChart() {
     }];
 
     if (showTrend) {
-        // 6-month SMA
-        const smaData = calculateSMA(transactions, 6);
+        const smaData = calculateSMA(dataValues, 6);
         datasets.push({
             label: '趨勢預測 (6個月移動平均)',
             data: smaData,
@@ -123,7 +126,7 @@ function renderChart() {
         });
     }
 
-    updateSummary(transactions, showTrend);
+    updateSummary(dataValues, showTrend, currentTypeName);
 
     const ctx = document.getElementById('mainChart').getContext('2d');
     
@@ -184,32 +187,37 @@ function renderChart() {
     });
 }
 
-function updateSummary(transactions, showTrend) {
-    if (transactions.length < 2) {
+function updateSummary(dataValues, showTrend, typeName) {
+    if (dataValues.length < 2) {
         document.getElementById('summaryText').textContent = '資料點不足，無法分析。';
         return;
     }
 
-    const firstVal = transactions[0];
-    const lastVal = transactions[transactions.length - 1];
-    const diff = lastVal - firstVal;
-    const percent = ((diff / firstVal) * 100).toFixed(1);
+    const firstVal = dataValues[0];
+    const lastVal = dataValues[dataValues.length - 1];
     
-    let baseText = `在選定區間內，建物買賣移轉棟數從 ${firstVal} 棟變動至 ${lastVal} 棟（${diff >= 0 ? '成長' : '衰退'} ${Math.abs(percent)}%）。`;
+    let baseText = '';
+    
+    if (firstVal === 0 && lastVal === 0) {
+         baseText = `在選定區間內，建物「${typeName}」棟數皆為 0。`;
+    } else {
+        const diff = lastVal - firstVal;
+        const percent = firstVal > 0 ? ((diff / firstVal) * 100).toFixed(1) : 100;
+        baseText = `在選定區間內，建物「${typeName}」棟數從 ${firstVal} 棟變動至 ${lastVal} 棟（${diff >= 0 ? '成長' : '衰退'} ${Math.abs(percent)}%）。`;
+    }
     
     if (showTrend) {
-        // Simple prediction based on the last two SMA points if available
-        const sma = calculateSMA(transactions, 6);
+        const sma = calculateSMA(dataValues, 6);
         const lastSma = sma[sma.length - 1];
         const prevSma = sma[sma.length - 2];
         
-        if (lastSma && prevSma) {
+        if (lastSma !== null && prevSma !== null) {
             if (lastSma > prevSma) {
-                baseText += ' 結合移動平均線趨勢來看，近期市場熱度呈現「上升」跡象，買方動能增強，建議可以開始積極看房。';
+                baseText += ' 結合移動平均線來看，近期「上升」跡象明顯。';
             } else if (lastSma < prevSma) {
-                baseText += ' 結合移動平均線趨勢來看，近期市場熱度呈現「冷卻」跡象，建議買客可多加觀望，等待議價空間。';
+                baseText += ' 結合移動平均線來看，近期呈現「冷卻」跡象。';
             } else {
-                baseText += ' 結合移動平均線趨勢來看，近期市場熱度保持「平穩」，適合慢慢尋找理想物件。';
+                baseText += ' 結合移動平均線來看，近期保持「平穩」。';
             }
         } else {
             baseText += ' (需更多資料以提供趨勢預測)';

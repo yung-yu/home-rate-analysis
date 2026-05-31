@@ -1,446 +1,786 @@
 [
   {
     "date": "2017-01",
-    "transactions": 20475
+    "transaction": 20475,
+    "auction": 347,
+    "inheritance": 3752,
+    "gift": 5248
   },
   {
     "date": "2017-02",
-    "transactions": 16402
+    "transaction": 16402,
+    "auction": 305,
+    "inheritance": 3607,
+    "gift": 3491
   },
   {
     "date": "2017-03",
-    "transactions": 22838
+    "transaction": 22838,
+    "auction": 497,
+    "inheritance": 5136,
+    "gift": 4351
   },
   {
     "date": "2017-04",
-    "transactions": 19842
+    "transaction": 19842,
+    "auction": 435,
+    "inheritance": 4293,
+    "gift": 3147
   },
   {
     "date": "2017-05",
-    "transactions": 23024
+    "transaction": 23024,
+    "auction": 388,
+    "inheritance": 4545,
+    "gift": 3451
   },
   {
     "date": "2017-06",
-    "transactions": 26529
+    "transaction": 26529,
+    "auction": 453,
+    "inheritance": 4988,
+    "gift": 3609
   },
   {
     "date": "2017-07",
-    "transactions": 22231
+    "transaction": 22231,
+    "auction": 421,
+    "inheritance": 4485,
+    "gift": 3168
   },
   {
     "date": "2017-08",
-    "transactions": 23383
+    "transaction": 23383,
+    "auction": 403,
+    "inheritance": 5132,
+    "gift": 3482
   },
   {
     "date": "2017-09",
-    "transactions": 22306
+    "transaction": 22306,
+    "auction": 400,
+    "inheritance": 4575,
+    "gift": 2948
   },
   {
     "date": "2017-10",
-    "transactions": 19653
+    "transaction": 19653,
+    "auction": 328,
+    "inheritance": 3925,
+    "gift": 2745
   },
   {
     "date": "2017-11",
-    "transactions": 24272
+    "transaction": 24272,
+    "auction": 445,
+    "inheritance": 4612,
+    "gift": 3391
   },
   {
     "date": "2017-12",
-    "transactions": 25131
+    "transaction": 25131,
+    "auction": 477,
+    "inheritance": 4471,
+    "gift": 3963
   },
   {
     "date": "2018-01",
-    "transactions": 26567
+    "transaction": 26567,
+    "auction": 426,
+    "inheritance": 4582,
+    "gift": 6008
   },
   {
     "date": "2018-02",
-    "transactions": 14974
+    "transaction": 14974,
+    "auction": 274,
+    "inheritance": 2959,
+    "gift": 3108
   },
   {
     "date": "2018-03",
-    "transactions": 24519
+    "transaction": 24519,
+    "auction": 531,
+    "inheritance": 5635,
+    "gift": 4205
   },
   {
     "date": "2018-04",
-    "transactions": 19187
+    "transaction": 19187,
+    "auction": 343,
+    "inheritance": 4559,
+    "gift": 3043
   },
   {
     "date": "2018-05",
-    "transactions": 26894
+    "transaction": 26894,
+    "auction": 497,
+    "inheritance": 5414,
+    "gift": 3827
   },
   {
     "date": "2018-06",
-    "transactions": 23989
+    "transaction": 23989,
+    "auction": 478,
+    "inheritance": 4728,
+    "gift": 3284
   },
   {
     "date": "2018-07",
-    "transactions": 25818
+    "transaction": 25818,
+    "auction": 451,
+    "inheritance": 5132,
+    "gift": 3390
   },
   {
     "date": "2018-08",
-    "transactions": 21980
+    "transaction": 21980,
+    "auction": 581,
+    "inheritance": 5179,
+    "gift": 3404
   },
   {
     "date": "2018-09",
-    "transactions": 21904
+    "transaction": 21904,
+    "auction": 382,
+    "inheritance": 4071,
+    "gift": 2630
   },
   {
     "date": "2018-10",
-    "transactions": 24302
+    "transaction": 24302,
+    "auction": 463,
+    "inheritance": 4869,
+    "gift": 3265
   },
   {
     "date": "2018-11",
-    "transactions": 24292
+    "transaction": 24292,
+    "auction": 399,
+    "inheritance": 4542,
+    "gift": 3153
   },
   {
     "date": "2018-12",
-    "transactions": 23541
+    "transaction": 23541,
+    "auction": 409,
+    "inheritance": 4645,
+    "gift": 3708
   },
   {
     "date": "2019-01",
-    "transactions": 25882
+    "transaction": 25882,
+    "auction": 473,
+    "inheritance": 4972,
+    "gift": 6857
   },
   {
     "date": "2019-02",
-    "transactions": 14968
+    "transaction": 14968,
+    "auction": 269,
+    "inheritance": 3138,
+    "gift": 2861
   },
   {
     "date": "2019-03",
-    "transactions": 23374
+    "transaction": 23374,
+    "auction": 431,
+    "inheritance": 4746,
+    "gift": 3857
   },
   {
     "date": "2019-04",
-    "transactions": 24685
+    "transaction": 24685,
+    "auction": 400,
+    "inheritance": 5199,
+    "gift": 3398
   },
   {
     "date": "2019-05",
-    "transactions": 28428
+    "transaction": 28428,
+    "auction": 577,
+    "inheritance": 5459,
+    "gift": 3808
   },
   {
     "date": "2019-06",
-    "transactions": 25814
+    "transaction": 25814,
+    "auction": 390,
+    "inheritance": 4656,
+    "gift": 2975
   },
   {
     "date": "2019-07",
-    "transactions": 29625
+    "transaction": 29625,
+    "auction": 486,
+    "inheritance": 5477,
+    "gift": 3650
   },
   {
     "date": "2019-08",
-    "transactions": 22577
+    "transaction": 22577,
+    "auction": 445,
+    "inheritance": 5042,
+    "gift": 3156
   },
   {
     "date": "2019-09",
-    "transactions": 23438
+    "transaction": 23438,
+    "auction": 377,
+    "inheritance": 4423,
+    "gift": 2796
   },
   {
     "date": "2019-10",
-    "transactions": 27452
+    "transaction": 27452,
+    "auction": 407,
+    "inheritance": 5039,
+    "gift": 3428
   },
   {
     "date": "2019-11",
-    "transactions": 25625
+    "transaction": 25625,
+    "auction": 446,
+    "inheritance": 4577,
+    "gift": 3199
   },
   {
     "date": "2019-12",
-    "transactions": 28407
+    "transaction": 28407,
+    "auction": 416,
+    "inheritance": 4949,
+    "gift": 3971
   },
   {
     "date": "2020-01",
-    "transactions": 20239
+    "transaction": 20239,
+    "auction": 357,
+    "inheritance": 3893,
+    "gift": 4739
   },
   {
     "date": "2020-02",
-    "transactions": 23388
+    "transaction": 23388,
+    "auction": 432,
+    "inheritance": 4789,
+    "gift": 4443
   },
   {
     "date": "2020-03",
-    "transactions": 25734
+    "transaction": 25734,
+    "auction": 546,
+    "inheritance": 5742,
+    "gift": 4047
   },
   {
     "date": "2020-04",
-    "transactions": 23072
+    "transaction": 23072,
+    "auction": 370,
+    "inheritance": 5274,
+    "gift": 3342
   },
   {
     "date": "2020-05",
-    "transactions": 22378
+    "transaction": 22378,
+    "auction": 393,
+    "inheritance": 4988,
+    "gift": 3365
   },
   {
     "date": "2020-06",
-    "transactions": 25567
+    "transaction": 25567,
+    "auction": 355,
+    "inheritance": 4973,
+    "gift": 3244
   },
   {
     "date": "2020-07",
-    "transactions": 30551
+    "transaction": 30551,
+    "auction": 478,
+    "inheritance": 5315,
+    "gift": 3429
   },
   {
     "date": "2020-08",
-    "transactions": 29310
+    "transaction": 29310,
+    "auction": 389,
+    "inheritance": 4741,
+    "gift": 3130
   },
   {
     "date": "2020-09",
-    "transactions": 31772
+    "transaction": 31772,
+    "auction": 493,
+    "inheritance": 5114,
+    "gift": 3233
   },
   {
     "date": "2020-10",
-    "transactions": 28043
+    "transaction": 28043,
+    "auction": 440,
+    "inheritance": 4237,
+    "gift": 3002
   },
   {
     "date": "2020-11",
-    "transactions": 31169
+    "transaction": 31169,
+    "auction": 450,
+    "inheritance": 4735,
+    "gift": 3417
   },
   {
     "date": "2020-12",
-    "transactions": 35366
+    "transaction": 35366,
+    "auction": 566,
+    "inheritance": 5308,
+    "gift": 4368
   },
   {
     "date": "2021-01",
-    "transactions": 30792
+    "transaction": 30792,
+    "auction": 428,
+    "inheritance": 4782,
+    "gift": 5739
   },
   {
     "date": "2021-02",
-    "transactions": 20286
+    "transaction": 20286,
+    "auction": 293,
+    "inheritance": 3774,
+    "gift": 3793
   },
   {
     "date": "2021-03",
-    "transactions": 29753
+    "transaction": 29753,
+    "auction": 515,
+    "inheritance": 5775,
+    "gift": 4290
   },
   {
     "date": "2021-04",
-    "transactions": 29485
+    "transaction": 29485,
+    "auction": 357,
+    "inheritance": 5672,
+    "gift": 3766
   },
   {
     "date": "2021-05",
-    "transactions": 32122
+    "transaction": 32122,
+    "auction": 380,
+    "inheritance": 4812,
+    "gift": 3434
   },
   {
     "date": "2021-06",
-    "transactions": 32707
+    "transaction": 32707,
+    "auction": 298,
+    "inheritance": 3982,
+    "gift": 2646
   },
   {
     "date": "2021-07",
-    "transactions": 23129
+    "transaction": 23129,
+    "auction": 149,
+    "inheritance": 5563,
+    "gift": 2859
   },
   {
     "date": "2021-08",
-    "transactions": 22742
+    "transaction": 22742,
+    "auction": 354,
+    "inheritance": 6512,
+    "gift": 3099
   },
   {
     "date": "2021-09",
-    "transactions": 27863
+    "transaction": 27863,
+    "auction": 256,
+    "inheritance": 5672,
+    "gift": 2997
   },
   {
     "date": "2021-10",
-    "transactions": 30160
+    "transaction": 30160,
+    "auction": 359,
+    "inheritance": 5093,
+    "gift": 3356
   },
   {
     "date": "2021-11",
-    "transactions": 32734
+    "transaction": 32734,
+    "auction": 444,
+    "inheritance": 5366,
+    "gift": 3985
   },
   {
     "date": "2021-12",
-    "transactions": 36421
+    "transaction": 36421,
+    "auction": 415,
+    "inheritance": 5847,
+    "gift": 4702
   },
   {
     "date": "2022-01",
-    "transactions": 31875
+    "transaction": 31875,
+    "auction": 333,
+    "inheritance": 5296,
+    "gift": 7099
   },
   {
     "date": "2022-02",
-    "transactions": 20172
+    "transaction": 20172,
+    "auction": 270,
+    "inheritance": 3263,
+    "gift": 3403
   },
   {
     "date": "2022-03",
-    "transactions": 32729
+    "transaction": 32729,
+    "auction": 411,
+    "inheritance": 6393,
+    "gift": 4979
   },
   {
     "date": "2022-04",
-    "transactions": 28861
+    "transaction": 28861,
+    "auction": 307,
+    "inheritance": 5415,
+    "gift": 3768
   },
   {
     "date": "2022-05",
-    "transactions": 29594
+    "transaction": 29594,
+    "auction": 375,
+    "inheritance": 5679,
+    "gift": 3865
   },
   {
     "date": "2022-06",
-    "transactions": 27571
+    "transaction": 27571,
+    "auction": 353,
+    "inheritance": 5763,
+    "gift": 3493
   },
   {
     "date": "2022-07",
-    "transactions": 24229
+    "transaction": 24229,
+    "auction": 327,
+    "inheritance": 6181,
+    "gift": 3601
   },
   {
     "date": "2022-08",
-    "transactions": 25084
+    "transaction": 25084,
+    "auction": 519,
+    "inheritance": 6988,
+    "gift": 3891
   },
   {
     "date": "2022-09",
-    "transactions": 23816
+    "transaction": 23816,
+    "auction": 312,
+    "inheritance": 6265,
+    "gift": 3430
   },
   {
     "date": "2022-10",
-    "transactions": 22562
+    "transaction": 22562,
+    "auction": 314,
+    "inheritance": 6336,
+    "gift": 3577
   },
   {
     "date": "2022-11",
-    "transactions": 24665
+    "transaction": 24665,
+    "auction": 343,
+    "inheritance": 6379,
+    "gift": 3881
   },
   {
     "date": "2022-12",
-    "transactions": 26943
+    "transaction": 26943,
+    "auction": 319,
+    "inheritance": 6424,
+    "gift": 4818
   },
   {
     "date": "2023-01",
-    "transactions": 16657
+    "transaction": 16657,
+    "auction": 197,
+    "inheritance": 4791,
+    "gift": 5173
   },
   {
     "date": "2023-02",
-    "transactions": 20391
+    "transaction": 20391,
+    "auction": 231,
+    "inheritance": 5854,
+    "gift": 5290
   },
   {
     "date": "2023-03",
-    "transactions": 27243
+    "transaction": 27243,
+    "auction": 388,
+    "inheritance": 8026,
+    "gift": 5538
   },
   {
     "date": "2023-04",
-    "transactions": 20593
+    "transaction": 20593,
+    "auction": 236,
+    "inheritance": 5833,
+    "gift": 3649
   },
   {
     "date": "2023-05",
-    "transactions": 27772
+    "transaction": 27772,
+    "auction": 323,
+    "inheritance": 7391,
+    "gift": 4361
   },
   {
     "date": "2023-06",
-    "transactions": 26286
+    "transaction": 26286,
+    "auction": 293,
+    "inheritance": 6689,
+    "gift": 3919
   },
   {
     "date": "2023-07",
-    "transactions": 25580
+    "transaction": 25580,
+    "auction": 285,
+    "inheritance": 6514,
+    "gift": 3905
   },
   {
     "date": "2023-08",
-    "transactions": 26595
+    "transaction": 26595,
+    "auction": 415,
+    "inheritance": 7093,
+    "gift": 3996
   },
   {
     "date": "2023-09",
-    "transactions": 27637
+    "transaction": 27637,
+    "auction": 287,
+    "inheritance": 6393,
+    "gift": 3396
   },
   {
     "date": "2023-10",
-    "transactions": 26992
+    "transaction": 26992,
+    "auction": 277,
+    "inheritance": 5937,
+    "gift": 3521
   },
   {
     "date": "2023-11",
-    "transactions": 30056
+    "transaction": 30056,
+    "auction": 329,
+    "inheritance": 6342,
+    "gift": 4321
   },
   {
     "date": "2023-12",
-    "transactions": 31169
+    "transaction": 31169,
+    "auction": 278,
+    "inheritance": 6149,
+    "gift": 4850
   },
   {
     "date": "2024-01",
-    "transactions": 32191
+    "transaction": 32191,
+    "auction": 354,
+    "inheritance": 6389,
+    "gift": 7629
   },
   {
     "date": "2024-02",
-    "transactions": 18920
+    "transaction": 18920,
+    "auction": 240,
+    "inheritance": 4704,
+    "gift": 4023
   },
   {
     "date": "2024-03",
-    "transactions": 29902
+    "transaction": 29902,
+    "auction": 308,
+    "inheritance": 6381,
+    "gift": 4958
   },
   {
     "date": "2024-04",
-    "transactions": 30667
+    "transaction": 30667,
+    "auction": 288,
+    "inheritance": 6681,
+    "gift": 3969
   },
   {
     "date": "2024-05",
-    "transactions": 34879
+    "transaction": 34879,
+    "auction": 387,
+    "inheritance": 7149,
+    "gift": 4688
   },
   {
     "date": "2024-06",
-    "transactions": 30219
+    "transaction": 30219,
+    "auction": 263,
+    "inheritance": 6063,
+    "gift": 3504
   },
   {
     "date": "2024-07",
-    "transactions": 33703
+    "transaction": 33703,
+    "auction": 355,
+    "inheritance": 6366,
+    "gift": 3903
   },
   {
     "date": "2024-08",
-    "transactions": 31127
+    "transaction": 31127,
+    "auction": 448,
+    "inheritance": 7082,
+    "gift": 4308
   },
   {
     "date": "2024-09",
-    "transactions": 29520
+    "transaction": 29520,
+    "auction": 285,
+    "inheritance": 6269,
+    "gift": 3545
   },
   {
     "date": "2024-10",
-    "transactions": 26208
+    "transaction": 26208,
+    "auction": 246,
+    "inheritance": 5697,
+    "gift": 3952
   },
   {
     "date": "2024-11",
-    "transactions": 25662
+    "transaction": 25662,
+    "auction": 270,
+    "inheritance": 6452,
+    "gift": 4406
   },
   {
     "date": "2024-12",
-    "transactions": 27527
+    "transaction": 27527,
+    "auction": 259,
+    "inheritance": 6742,
+    "gift": 5173
   },
   {
     "date": "2025-01",
-    "transactions": 19215
+    "transaction": 19215,
+    "auction": 180,
+    "inheritance": 5355,
+    "gift": 6171
   },
   {
     "date": "2025-02",
-    "transactions": 20007
+    "transaction": 20007,
+    "auction": 229,
+    "inheritance": 5475,
+    "gift": 5557
   },
   {
     "date": "2025-03",
-    "transactions": 23879
+    "transaction": 23879,
+    "auction": 281,
+    "inheritance": 7020,
+    "gift": 5311
   },
   {
     "date": "2025-04",
-    "transactions": 21536
+    "transaction": 21536,
+    "auction": 329,
+    "inheritance": 7178,
+    "gift": 4615
   },
   {
     "date": "2025-05",
-    "transactions": 22072
+    "transaction": 22072,
+    "auction": 237,
+    "inheritance": 6915,
+    "gift": 4158
   },
   {
     "date": "2025-06",
-    "transactions": 23442
+    "transaction": 23442,
+    "auction": 260,
+    "inheritance": 7121,
+    "gift": 4085
   },
   {
     "date": "2025-07",
-    "transactions": 23926
+    "transaction": 23926,
+    "auction": 288,
+    "inheritance": 6905,
+    "gift": 3929
   },
   {
     "date": "2025-08",
-    "transactions": 20860
+    "transaction": 20860,
+    "auction": 244,
+    "inheritance": 6564,
+    "gift": 3717
   },
   {
     "date": "2025-09",
-    "transactions": 20039
+    "transaction": 20039,
+    "auction": 257,
+    "inheritance": 6652,
+    "gift": 3567
   },
   {
     "date": "2025-10",
-    "transactions": 21204
+    "transaction": 21204,
+    "auction": 250,
+    "inheritance": 6240,
+    "gift": 3328
   },
   {
     "date": "2025-11",
-    "transactions": 20185
+    "transaction": 20185,
+    "auction": 398,
+    "inheritance": 5787,
+    "gift": 3497
   },
   {
     "date": "2025-12",
-    "transactions": 24943
+    "transaction": 24943,
+    "auction": 275,
+    "inheritance": 7112,
+    "gift": 4787
   },
   {
     "date": "2026-01",
-    "transactions": 23357
+    "transaction": 23357,
+    "auction": 237,
+    "inheritance": 6161,
+    "gift": 7318
   },
   {
     "date": "2026-02",
-    "transactions": 13505
+    "transaction": 13505,
+    "auction": 209,
+    "inheritance": 4443,
+    "gift": 4178
   },
   {
     "date": "2026-03",
-    "transactions": 23541
+    "transaction": 23541,
+    "auction": 322,
+    "inheritance": 7275,
+    "gift": 4686
+  },
+  {
+    "date": "2026-01",
+    "transaction": 0,
+    "auction": 0,
+    "inheritance": 0,
+    "gift": 0
   }
 ]
