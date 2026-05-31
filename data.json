@@ -1,0 +1,446 @@
+[
+  {
+    "date": "2017-01",
+    "transactions": 20475
+  },
+  {
+    "date": "2017-02",
+    "transactions": 16402
+  },
+  {
+    "date": "2017-03",
+    "transactions": 22838
+  },
+  {
+    "date": "2017-04",
+    "transactions": 19842
+  },
+  {
+    "date": "2017-05",
+    "transactions": 23024
+  },
+  {
+    "date": "2017-06",
+    "transactions": 26529
+  },
+  {
+    "date": "2017-07",
+    "transactions": 22231
+  },
+  {
+    "date": "2017-08",
+    "transactions": 23383
+  },
+  {
+    "date": "2017-09",
+    "transactions": 22306
+  },
+  {
+    "date": "2017-10",
+    "transactions": 19653
+  },
+  {
+    "date": "2017-11",
+    "transactions": 24272
+  },
+  {
+    "date": "2017-12",
+    "transactions": 25131
+  },
+  {
+    "date": "2018-01",
+    "transactions": 26567
+  },
+  {
+    "date": "2018-02",
+    "transactions": 14974
+  },
+  {
+    "date": "2018-03",
+    "transactions": 24519
+  },
+  {
+    "date": "2018-04",
+    "transactions": 19187
+  },
+  {
+    "date": "2018-05",
+    "transactions": 26894
+  },
+  {
+    "date": "2018-06",
+    "transactions": 23989
+  },
+  {
+    "date": "2018-07",
+    "transactions": 25818
+  },
+  {
+    "date": "2018-08",
+    "transactions": 21980
+  },
+  {
+    "date": "2018-09",
+    "transactions": 21904
+  },
+  {
+    "date": "2018-10",
+    "transactions": 24302
+  },
+  {
+    "date": "2018-11",
+    "transactions": 24292
+  },
+  {
+    "date": "2018-12",
+    "transactions": 23541
+  },
+  {
+    "date": "2019-01",
+    "transactions": 25882
+  },
+  {
+    "date": "2019-02",
+    "transactions": 14968
+  },
+  {
+    "date": "2019-03",
+    "transactions": 23374
+  },
+  {
+    "date": "2019-04",
+    "transactions": 24685
+  },
+  {
+    "date": "2019-05",
+    "transactions": 28428
+  },
+  {
+    "date": "2019-06",
+    "transactions": 25814
+  },
+  {
+    "date": "2019-07",
+    "transactions": 29625
+  },
+  {
+    "date": "2019-08",
+    "transactions": 22577
+  },
+  {
+    "date": "2019-09",
+    "transactions": 23438
+  },
+  {
+    "date": "2019-10",
+    "transactions": 27452
+  },
+  {
+    "date": "2019-11",
+    "transactions": 25625
+  },
+  {
+    "date": "2019-12",
+    "transactions": 28407
+  },
+  {
+    "date": "2020-01",
+    "transactions": 20239
+  },
+  {
+    "date": "2020-02",
+    "transactions": 23388
+  },
+  {
+    "date": "2020-03",
+    "transactions": 25734
+  },
+  {
+    "date": "2020-04",
+    "transactions": 23072
+  },
+  {
+    "date": "2020-05",
+    "transactions": 22378
+  },
+  {
+    "date": "2020-06",
+    "transactions": 25567
+  },
+  {
+    "date": "2020-07",
+    "transactions": 30551
+  },
+  {
+    "date": "2020-08",
+    "transactions": 29310
+  },
+  {
+    "date": "2020-09",
+    "transactions": 31772
+  },
+  {
+    "date": "2020-10",
+    "transactions": 28043
+  },
+  {
+    "date": "2020-11",
+    "transactions": 31169
+  },
+  {
+    "date": "2020-12",
+    "transactions": 35366
+  },
+  {
+    "date": "2021-01",
+    "transactions": 30792
+  },
+  {
+    "date": "2021-02",
+    "transactions": 20286
+  },
+  {
+    "date": "2021-03",
+    "transactions": 29753
+  },
+  {
+    "date": "2021-04",
+    "transactions": 29485
+  },
+  {
+    "date": "2021-05",
+    "transactions": 32122
+  },
+  {
+    "date": "2021-06",
+    "transactions": 32707
+  },
+  {
+    "date": "2021-07",
+    "transactions": 23129
+  },
+  {
+    "date": "2021-08",
+    "transactions": 22742
+  },
+  {
+    "date": "2021-09",
+    "transactions": 27863
+  },
+  {
+    "date": "2021-10",
+    "transactions": 30160
+  },
+  {
+    "date": "2021-11",
+    "transactions": 32734
+  },
+  {
+    "date": "2021-12",
+    "transactions": 36421
+  },
+  {
+    "date": "2022-01",
+    "transactions": 31875
+  },
+  {
+    "date": "2022-02",
+    "transactions": 20172
+  },
+  {
+    "date": "2022-03",
+    "transactions": 32729
+  },
+  {
+    "date": "2022-04",
+    "transactions": 28861
+  },
+  {
+    "date": "2022-05",
+    "transactions": 29594
+  },
+  {
+    "date": "2022-06",
+    "transactions": 27571
+  },
+  {
+    "date": "2022-07",
+    "transactions": 24229
+  },
+  {
+    "date": "2022-08",
+    "transactions": 25084
+  },
+  {
+    "date": "2022-09",
+    "transactions": 23816
+  },
+  {
+    "date": "2022-10",
+    "transactions": 22562
+  },
+  {
+    "date": "2022-11",
+    "transactions": 24665
+  },
+  {
+    "date": "2022-12",
+    "transactions": 26943
+  },
+  {
+    "date": "2023-01",
+    "transactions": 16657
+  },
+  {
+    "date": "2023-02",
+    "transactions": 20391
+  },
+  {
+    "date": "2023-03",
+    "transactions": 27243
+  },
+  {
+    "date": "2023-04",
+    "transactions": 20593
+  },
+  {
+    "date": "2023-05",
+    "transactions": 27772
+  },
+  {
+    "date": "2023-06",
+    "transactions": 26286
+  },
+  {
+    "date": "2023-07",
+    "transactions": 25580
+  },
+  {
+    "date": "2023-08",
+    "transactions": 26595
+  },
+  {
+    "date": "2023-09",
+    "transactions": 27637
+  },
+  {
+    "date": "2023-10",
+    "transactions": 26992
+  },
+  {
+    "date": "2023-11",
+    "transactions": 30056
+  },
+  {
+    "date": "2023-12",
+    "transactions": 31169
+  },
+  {
+    "date": "2024-01",
+    "transactions": 32191
+  },
+  {
+    "date": "2024-02",
+    "transactions": 18920
+  },
+  {
+    "date": "2024-03",
+    "transactions": 29902
+  },
+  {
+    "date": "2024-04",
+    "transactions": 30667
+  },
+  {
+    "date": "2024-05",
+    "transactions": 34879
+  },
+  {
+    "date": "2024-06",
+    "transactions": 30219
+  },
+  {
+    "date": "2024-07",
+    "transactions": 33703
+  },
+  {
+    "date": "2024-08",
+    "transactions": 31127
+  },
+  {
+    "date": "2024-09",
+    "transactions": 29520
+  },
+  {
+    "date": "2024-10",
+    "transactions": 26208
+  },
+  {
+    "date": "2024-11",
+    "transactions": 25662
+  },
+  {
+    "date": "2024-12",
+    "transactions": 27527
+  },
+  {
+    "date": "2025-01",
+    "transactions": 19215
+  },
+  {
+    "date": "2025-02",
+    "transactions": 20007
+  },
+  {
+    "date": "2025-03",
+    "transactions": 23879
+  },
+  {
+    "date": "2025-04",
+    "transactions": 21536
+  },
+  {
+    "date": "2025-05",
+    "transactions": 22072
+  },
+  {
+    "date": "2025-06",
+    "transactions": 23442
+  },
+  {
+    "date": "2025-07",
+    "transactions": 23926
+  },
+  {
+    "date": "2025-08",
+    "transactions": 20860
+  },
+  {
+    "date": "2025-09",
+    "transactions": 20039
+  },
+  {
+    "date": "2025-10",
+    "transactions": 21204
+  },
+  {
+    "date": "2025-11",
+    "transactions": 20185
+  },
+  {
+    "date": "2025-12",
+    "transactions": 24943
+  },
+  {
+    "date": "2026-01",
+    "transactions": 23357
+  },
+  {
+    "date": "2026-02",
+    "transactions": 13505
+  },
+  {
+    "date": "2026-03",
+    "transactions": 23541
+  }
+]

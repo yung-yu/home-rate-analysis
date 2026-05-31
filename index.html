@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全國建物買賣移轉分析</title>
+    <meta name="description" content="全國建物買賣移轉棟數統計分析網，幫助買房客洞察房市趨勢。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <h1>全國建物買賣移轉分析</h1>
+                <span class="last-update">資料最後更新：<span id="updateTime">加載中...</span></span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- 篩選控制面板 -->
+            <section class="control-panel card">
+                <div class="filter-group">
+                    <div class="filter-item">
+                        <label for="startYear">起始年份</label>
+                        <select id="startYear" class="select-input"></select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="endYear">結束年份</label>
+                        <select id="endYear" class="select-input"></select>
+                    </div>
+                </div>
+                
+                <div class="toggle-group">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="trendToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-label">顯示趨勢預測 (SMA)</span>
+                </div>
+            </section>
+
+            <!-- 圖表展示區 -->
+            <section class="chart-section card">
+                <div class="chart-container">
+                    <canvas id="mainChart"></canvas>
+                </div>
+            </section>
+
+            <!-- 結論區 -->
+            <section class="summary-section card">
+                <h2>📊 市場趨勢洞察</h2>
+                <p id="summaryText">正在分析資料中...</p>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <p>資料來源：內政部全國建物買賣移轉棟數統計 | 設計：萬事屋團隊</p>
+        </footer>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
